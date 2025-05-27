@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Converstisseur de monnaies</title>
+        <link rel="icon" type="image/ico" href="..\img\logo.ico"/>
+        <link rel="stylesheet" href="..\css\style_4.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+    </head>
+    <body>
+        <img src="..\img\background.jpg" class="img0">
+        <div class="contenu">
+            <h1 class="centre titre">Convertisseur monétaire par Fares et Islem</h1>
+            <button onclick="window.location.href='deuxieme_page.html';" class="basculer">₿ Basculer en crypto</button>
+            <div class="convertion">
+                <label for="montant">Montant :</label>
+                <input class="ipt" type="number" id="montant" placeholder="Entrez le montant" step="0.01" min="0">
+
+                <label for="deviseOriginaire">De :</label>
+                <select id="deviseOriginaire"></select>
+
+                <button id="swapBtn" class="switcher" onclick="inverser_devises()"><svg width="16" viewBox="0 0 20 19" xmlns="http://www.w3.org/2000/svg"><path d="M19.13 11.66H.22a.22.22 0 0 0-.22.22v1.62a.22.22 0 0 0 .22.22h16.45l-3.92 4.94a.22.22 0 0 0 .17.35h1.97c.13 0 .25-.06.33-.16l4.59-5.78a.9.9 0 0 0-.7-1.43zM19.78 5.29H3.34L7.26.35A.22.22 0 0 0 7.09 0H5.12a.22.22 0 0 0-.34.16L.19 5.94a.9.9 0 0 0 .68 1.4H19.78a.22.22 0 0 0 .22-.22V5.51a.22.22 0 0 0-.22-.22z" fill="#fff"></path></svg></button>
+
+                <label for="deviseSouhaitee">À :</label>
+                <select id="deviseSouhaitee"></select>
+                <button class="convertir" onclick="getSaissieUtilisateur()">Convertir</button>
+                <p id="resultat">resultat</p>
+            </div>
+        </div>
+        <div class="style_un"></div>
+        <script src="..\script\script_1.js"></script>
+        <script src="..\script\api_script_un.js"></script>
+        <script src="..\script\json_devises_1.js"></script>
+    </body>
+</html>

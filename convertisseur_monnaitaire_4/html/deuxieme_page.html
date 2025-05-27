@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Converstisseur de cryptomonnaie</title>
+        <link rel="icon" type="image/png" href="..\img\bitcoin-Logo.png"/>
+        <link rel="stylesheet" href="..\css\style_5.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+    </head>
+    <body>
+        <div class="contenu">
+            
+            <h1 class="centre titre">Convertisseur cryptomonétaire par Fares</h1>
+            <button class="basculer" onclick="window.location.href='premiere_page.html';">$ Basculer en monnaie réelle</button>
+            <div class="convertion">
+                <label for="montant">Montant :</label>
+                <input class="ipt" type="number" id="montant" placeholder="Entrez le montant" step="0.01" min="0">
+
+                <label for="deviseOriginaire">De :</label>
+                <select id="deviseOriginaire"></select>
+
+                <button id="swapBtn" class="switcher" onclick="inverser_devises()"><svg width="16" viewBox="0 0 20 19" xmlns="http://www.w3.org/2000/svg"><path d="M19.13 11.66H.22a.22.22 0 0 0-.22.22v1.62a.22.22 0 0 0 .22.22h16.45l-3.92 4.94a.22.22 0 0 0 .17.35h1.97c.13 0 .25-.06.33-.16l4.59-5.78a.9.9 0 0 0-.7-1.43zM19.78 5.29H3.34L7.26.35A.22.22 0 0 0 7.09 0H5.12a.22.22 0 0 0-.34.16L.19 5.94a.9.9 0 0 0 .68 1.4H19.78a.22.22 0 0 0 .22-.22V5.51a.22.22 0 0 0-.22-.22z" fill="#fff"></path></svg></button>
+
+                <label for="deviseSouhaitee">À :</label>
+                <select id="deviseSouhaitee"></select>
+                <button class="convertir" onclick="getSaissieUtilisateur()">Convertir</button>
+                <p id="resultat">resultat</p>
+            </div>
+            <div id="tradingview"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+                new TradingView.widget({
+                    "height": 300,
+                    'width' : true,
+                    "symbol": "BINANCE:BTCUSDT",
+                    "interval": "D",
+                    "timezone": "Europe/Paris",
+                    "theme": "dark",
+                    "style": "1",
+                    "locale": "fr",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "container_id": "tradingview"
+                });
+            </script>
+        </div>
+        <div class="style_un"></div>
+        <script src="..\script\script_1.js"></script>
+        <script src="..\script\api_script_deux.js"></script>
+        <script src="..\script\json_devises_2.js"></script>
+    </body>
+</html>

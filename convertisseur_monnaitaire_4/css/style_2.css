@@ -1,0 +1,199 @@
+* {
+    font-family: Roboto;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+button.convertir {
+    /* background-color: rgb(100, 50, 180); */
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(59, 50, 180, 0.3) 100%);
+    box-shadow: 0 0 5px 0px rgb(50, 59, 180);
+    color: rgb(236, 224, 255);
+    text-shadow: rgb(50, 59, 180);
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
+    font-weight: 600;
+    margin: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.convertir:hover {
+    background-color :rgb(50, 59, 180);
+    color: white;
+    text-shadow: none;
+}
+
+.convertir:active {
+    background-color: rgb(25, 10, 140);
+    color: rgb(195, 195, 195);
+}
+
+label.convertir {
+    width: 10%;
+    display: block;
+    
+}
+
+.centre {
+    text-align: center;
+}
+
+.titre {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    padding: 5px;
+    display: block;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+    min-width: 218px;
+    color: #ffffff;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    animation-name: intro2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#resultat {
+    padding: 5px;
+    text-align: center;
+    max-width: 200px;
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(44, 37, 134, 0.3) 100%);
+    box-shadow: 0 0 5px 2px rgb(55, 113, 139);
+    color: rgb(236, 224, 255);
+    text-shadow: rgb(50, 59, 180);
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 600;
+    transition-duration: 0.4s;
+    margin: auto;
+}
+
+.ipt {
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(44, 37, 134, 0.3) 100%);
+    box-shadow: 0 0 5px 0px rgb(50, 59, 180);
+    color: rgb(236, 224, 255);
+    text-shadow: rgb(50, 59, 180);
+    border-radius: 7px;
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 600;
+    transition-duration: 0.4s;
+    margin: 5px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ipt:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0 0 7px 2px rgb(50, 59, 180);
+}
+
+body {
+    background-color: rgb(61, 43, 226);
+    background: radial-gradient(circle, rgb(39, 37, 56) 10%, rgb(31, 31, 31) 100%);
+}
+
+#bgVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(5px);
+}
+
+
+div.contenu {
+    position: relative;
+    background: radial-gradient(circle, rgba(6, 0, 63, 0.4) 15%, rgba(24, 24, 24,0) 100%);
+    color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 15px 30px 30px 30px;
+    min-width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    animation-name: intro3;
+    animation-duration: 2s;
+}
+
+div.convertion {
+    position: relative;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px;
+    overflow: visible;
+    width: 100%;
+    text-align: center;
+    
+}
+
+div.style_un {
+    background-color: rgb(61, 43, 226);
+    background: radial-gradient(circle, rgb(51, 42, 170) 15%, rgb(42, 72, 155) 100%);
+    position: absolute;
+    filter: blur(300px);
+    padding: 8%;
+    margin: 0px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 20px;
+    width: 82%;
+    opacity: 0.6;
+    animation-name: intro1;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    bottom: 0px;
+    pointer-events: none;
+}
+
+.switcher {
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+select {
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    max-width: 400px
+}
+
+@keyframes intro1 {
+    from {opacity: 0; bottom: 150px;}
+    to {opacity: 0.6; bottom: 0px;}
+}
+
+@keyframes intro2 {
+    0% {scale: 80%; color: rgba(0,0,0,0);}
+    100% {scale: 100%; color: rgba(0, 0, 0, 1);}
+}
+
+@keyframes intro3 {
+    0% {bottom: 100px;}
+    100% {bottom: 0px;}
+}

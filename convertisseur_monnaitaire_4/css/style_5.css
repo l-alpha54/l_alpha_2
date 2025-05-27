@@ -1,0 +1,230 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Geist Mono", monospace;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../img/bg3.png") #032811 no-repeat center;
+    backdrop-filter: blur(10px);
+    min-height: 100vh;
+}
+
+.titre {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 35%;
+    padding: 5px;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+    min-width: 500px;
+    color: #d3caca;
+    font-family: "Geist Mono", monospace;
+}
+
+.basculer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    font-family: "Geist Mono", monospace;
+    border: green solid 1px;
+    box-shadow: 0px 0px 5px 1px green;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.basculer:hover {
+    background-color: #288d46;
+    color: #ffffff;
+}
+.basculer:active {
+    background-color: #1b6331;
+}
+
+#root {
+  width: 100%;
+}
+
+div.contenu {
+  max-width: 720px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 40px 30px 50px;
+  border-radius: 8px;
+  backdrop-filter: blur(30px);
+  background: rgba(2, 40, 32, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.ipt {
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(31, 110, 56, 0.3) 100%);
+    box-shadow: 0 0 5px 0px rgb(20, 73, 27);
+    color: rgb(236, 224, 255);
+    text-shadow: rgb(50, 180, 130);
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    transition-duration: 0.4s;
+    margin: 10px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#deviseOriginaire, .switcher, #deviseSouhaitee, .convertir, label, .ipt {
+    display: flex;
+    margin: auto;
+}
+
+.ipt:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px 2px rgb(77, 107, 92);
+}
+
+.switcher {
+    border: #ffffff solid 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    transition: 0.4s;
+}
+.switcher:hover {
+    background-color :rgb(30, 71, 55);
+    color: white;
+    text-shadow: none;
+}
+.switcher:active {
+    background-color: rgb(0, 83, 38);
+    color: rgb(195, 195, 195);
+}
+
+
+button.convertir {
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(20, 136, 65, 0.3) 100%);
+    box-shadow: 0 0 5px 0px rgb(8, 77, 28);
+    color: rgb(236, 224, 255);
+    text-shadow: rgb(6, 63, 28);
+    border-radius: 7px;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.convertir:hover {
+    background-color :rgb(50, 180, 100);
+    color: white;
+    text-shadow: none;
+}
+
+.convertir:active {
+    background-color: rgb(8, 66, 37);
+    color: rgb(195, 195, 195);
+}
+
+select {
+    display: flex;
+    background: transparent;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 0 10px 10px rgba(58, 58, 58, 0.514);
+}
+
+option {
+    background-color: #023831;
+}
+
+p#resultat {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    border: rgba(255, 255, 255, 0.3) solid 1px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+
+#tradingview {
+    margin-top: 20px;
+    box-shadow: 0 0 10px 1px black;
+}
+
+@keyframes intro1 {
+    0% {opacity: 0.2;}
+    100% {opacity: 0.6;}
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        font-size: 20px;
+    }
+
+    div.contenu {
+        width: 90%;
+        min-width: 350px;
+        padding: 30px 20px;
+    }
+
+    .ipt {
+        font-size: 20px;
+        padding: 20px;
+        margin: 20px;
+        width: 90%;
+    }
+
+    button.convertir {
+        font-size: 30px;
+    }
+    
+    .switcher {
+        padding: 10px;
+        margin-top: 30px;
+    }
+    
+    select {
+        padding: 5px;
+        font-size: 22px;
+        width: 90%;
+    }
+
+    p#resultat {
+        font-size: 35px;
+    }
+
+    .titre {
+        min-width: unset;
+        text-align: center;
+        width: 90%;
+        max-width: 380px;
+    }
+}

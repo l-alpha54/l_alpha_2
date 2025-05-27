@@ -1,0 +1,513 @@
+{
+  "EUR": [
+    "Croatie : euro",
+    "Madère : Euro",
+    "Réunion : euro",
+    "Grèce : euro",
+    "Slovaquie : euro",
+    "Canaries : Euro",
+    "Kosovo : euro",
+    "Pays-Bas : euro",
+    "Mayotte : euro",
+    "Saint Martin : Euro",
+    "Malte : euro",
+    "Andorre : euro",
+    "Crête : euro",
+    "France : euro",
+    "Chypre : euro",
+    "Guadeloupe : euro",
+    "Italie : euro",
+    "Lettonie : Euro",
+    "Saint-Pierre-et-Miquelon : euro",
+    "Portugal : euro",
+    "Belgique : euro",
+    "Espagne : euro",
+    "Guyane : euro",
+    "Estonie : Euro",
+    "Martinique : euro",
+    "Saint Barthélemy : Euro",
+    "Allemagne : euro",
+    "Monténégro : Euro",
+    "Slovénie : euro",
+    "Lituanie : Euro",
+    "Finlande : euro",
+    "Irlande : euro",
+    "Luxembourg : Euro",
+    "Monaco : Euro",
+    "Vatican : euro",
+    "Açores : Euro"
+  ],
+  "AFN": [
+    "Afghanistan : Afghani"
+  ],
+  "ZAR": [
+    "Afrique du Sud : Rand"
+  ],
+  "ALL": [
+    "Albanie : Lek"
+  ],
+  "DZD": [
+    "Algérie : Dinar"
+  ],
+  "AOA": [
+    "Angola : kwanza"
+  ],
+  "XCD": [
+    "Sainte Lucie : dollar de la Caraïbe orientale",
+    "Dominique : dollar des Caraïbes orientales",
+    "Antigua et Barbuda : dollar de la caraïbe orientale",
+    "Grenade : dollar de la Caraïbe orientale",
+    "Anguilla : dollar des Caraïbes orientales orientales",
+    "Saint Vincent et les Grenadines : dollar de la Caraïbe orientale"
+  ],
+  "USD": [
+    "Antarctique : dollar US",
+    "Micronésie : dollar US",
+    "Etats-Unis : dollar",
+    "Equateur : dollar US",
+    "Porto Rico : dollar",
+    "Salvador : dollar US",
+    "Iles Vierges Américaines : dollar US",
+    "Iles Turks et Caïcos : dollar US",
+    "Iles Mariannes du Nord : dollar US",
+    "Timor Oriental : dollar US",
+    "Guam : dollar US"
+  ],
+  "ANG": [
+    "Antilles néerlandaises : florin antillais"
+  ],
+  "SAR": [
+    "Arabie Saoudite : Saudi Riyal"
+  ],
+  "ARS": [
+    "Argentine : peso"
+  ],
+  "AMD": [
+    "Arménie : dram"
+  ],
+  "AUD": [
+    "Australie : dollar australien"
+  ],
+  "AZN": [
+    "Autriche : euro",
+    "Azerbaïdjan : manat"
+  ],
+  "BSD": [
+    "Bahamas : dollar bahaméen"
+  ],
+  "BHD": [
+    "Bahrein : dinar bahreïni"
+  ],
+  "BDT": [
+    "Bangladesh : taka"
+  ],
+  "BBD": [
+    "Barbade : dollar de la Barbade"
+  ],
+  "BZD": [
+    "Belize : dollar de Belize"
+  ],
+  "XOF": [
+    "Mali : franc CFA",
+    "Sénégal : franc CFA",
+    "Burkina Faso : franc CFA",
+    "Togo : franc CFA",
+    "Niger : franc CFA",
+    "Côte d'Ivoire : franc CFA",
+    "Bénin : franc CFA"
+  ],
+  "BMD": [
+    "Bermudes : dollar des Bermudes"
+  ],
+  "BTN": [
+    "Bhoutan : ngultrum"
+  ],
+  "BYN": [
+    "Biélorussie : rouble biélorusse"
+  ],
+  "MMK": [
+    "Birmanie : kyat"
+  ],
+  "BOB": [
+    "Bolivie : boliviano"
+  ],
+  "BAM": [
+    "Bosnie : mark convertible"
+  ],
+  "BWP": [
+    "Botswana : pula"
+  ],
+  "BRL": [
+    "Brésil : real"
+  ],
+  "BND": [
+    "Brunei : dollar de brunei"
+  ],
+  "BGN": [
+    "Bulgarie : lev"
+  ],
+  "BIF": [
+    "Burundi : franc du Burundi"
+  ],
+  "KHR": [
+    "Cambodge : riel"
+  ],
+  "XAF": [
+    "République Démocratique du Congo : franc CFA",
+    "Guinée-Bissau : franc CFA",
+    "Cameroun : franc CFA",
+    "République Centrafricaine : franc CFA",
+    "Tchad : franc CFA",
+    "Guinée Equatoriale : franc CFA",
+    "Gabon : franc CFA",
+    "Congo : franc CFA"
+  ],
+  "CAD": [
+    "Canada : dollar canadien"
+  ],
+  "CVE": [
+    "Cap Vert : escudo du Cap-Vert"
+  ],
+  "CLP": [
+    "Chili : peso chilien"
+  ],
+  "CNY": [
+    "Chine : yuan",
+    "Tibet : yuan"
+  ],
+  "COP": [
+    "Colombie : peso colombien"
+  ],
+  "KMF": [
+    "Comores : franc comorien"
+  ],
+  "KPW": [
+    "Corée du Nord : won nord coréen"
+  ],
+  "KRW": [
+    "Corée du sud : won"
+  ],
+  "CRC": [
+    "Costa Rica : colon"
+  ],
+  "CUC": [
+    "Cuba : peso cubain convertible"
+  ],
+  "DKK": [
+    "Danemark : couronne danoise",
+    "Iles Féroé : couronne danoise",
+    "Groenland : couronne danoise"
+  ],
+  "DJF": [
+    "Djibouti : franc djiboutien"
+  ],
+  "GBP": [
+    "Ecosse : livre sterling",
+    "Royaume Uni : livre"
+  ],
+  "EGP": [
+    "Egypte : livre egyptienne"
+  ],
+  "AED": [
+    "Émirats Arabes Unis : dirham des Emirats"
+  ],
+  "ERN": [
+    "Erythrée : nakfa"
+  ],
+  "ETB": [
+    "Ethiopie : birr"
+  ],
+  "GMD": [
+    "Gambie : dalasi"
+  ],
+  "GEL": [
+    "Géorgie : lari"
+  ],
+  "GHS": [
+    "Ghana : cedi"
+  ],
+  "GTQ": [
+    "Guatemala : quetzal"
+  ],
+  "GNF": [
+    "Guinée : franc guinéen"
+  ],
+  "GYD": [
+    "Guyana : dollar guyanais"
+  ],
+  "HTG": [
+    "Haïti : gourde haïtien"
+  ],
+  "HNL": [
+    "Honduras : Honduran Lempira"
+  ],
+  "HKD": [
+    "Hong Kong : Hong Kong Dollar"
+  ],
+  "HUF": [
+    "Hongrie : forint"
+  ],
+  "MUR": [
+    "Ile Maurice : roupie mauricienne"
+  ],
+  "KYD": [
+    "Iles Caïmans : dollar des îles Caïmans"
+  ],
+  "NZD": [
+    "Nouvelle Zélande : dollar néo-zélandais",
+    "Iles Cook : dollar néo-zélandais"
+  ],
+  "FJD": [
+    "Iles Fidji : dollar fidjien"
+  ],
+  "SBD": [
+    "Iles Salomon : dollar des îles Salomon"
+  ],
+  "INR": [
+    "Inde : roupie"
+  ],
+  "IDR": [
+    "Indonésie : rupiah"
+  ],
+  "IQD": [
+    "Irak : dinar irakien"
+  ],
+  "IRR": [
+    "Iran : rial iranien"
+  ],
+  "ISK": [
+    "Islande : couronne islandaise"
+  ],
+  "JMD": [
+    "Jamaïque : dollar jamaïcain"
+  ],
+  "JPY": [
+    "Japon : yen"
+  ],
+  "JOD": [
+    "Jordanie : dinar jordanien",
+    "Palestine : dinar jordanien"
+  ],
+  "KZT": [
+    "Kazakhstan : tenge"
+  ],
+  "KES": [
+    "Kenya : shilling"
+  ],
+  "KGS": [
+    "Kirghizstan : som"
+  ],
+  "KWD": [
+    "Koweït : dinar koweïtien"
+  ],
+  "LAK": [
+    "Laos : kip"
+  ],
+  "LSL": [
+    "Lesotho : loti"
+  ],
+  "LBP": [
+    "Liban : livre libanaise"
+  ],
+  "LRD": [
+    "Liberia : dollar libérien"
+  ],
+  "LYD": [
+    "Libye : dinar libyen"
+  ],
+  "CHF": [
+    "Liechtenstein : franc suisse",
+    "Suisse : franc suisse"
+  ],
+  "MOP": [
+    "Macao : pataca"
+  ],
+  "MKD": [
+    "Macédoine : denar macédonien"
+  ],
+  "MGA": [
+    "Madagascar : ariary"
+  ],
+  "MYR": [
+    "Malaisie : ringgit"
+  ],
+  "MWK": [
+    "Malawi : kwacha"
+  ],
+  "MVR": [
+    "Maldives : ruffiya"
+  ],
+  "FKP": [
+    "Malouines : livre des îles Malouines"
+  ],
+  "MAD": [
+    "Maroc : Dirham"
+  ],
+  "MRU": [
+    "Mauritanie : ouguiya"
+  ],
+  "MXN": [
+    "Mexique : nuevo peso"
+  ],
+  "MDL": [
+    "Moldavie : leu moldave"
+  ],
+  "MZN": [
+    "Mozambique : metical"
+  ],
+  "NAD": [
+    "Namibie : dollar namibien"
+  ],
+  "NPR": [
+    "Népal : roupie népalaise"
+  ],
+  "NIO": [
+    "Nicaragua : cordoba oro"
+  ],
+  "NGN": [
+    "Nigéria : naira"
+  ],
+  "NOK": [
+    "Norvège : couronne norvégienne"
+  ],
+  "XPF": [
+    "Wallis et Futuna : franc pacifique",
+    "Nouvelle Calédonie : franc pacifique",
+    "Polynésie : franc pacifique"
+  ],
+  "OMR": [
+    "Oman : rial omanais"
+  ],
+  "UGX": [
+    "Ouganda : shilling ougandais"
+  ],
+  "UZS": [
+    "Ouzbekistan : soum"
+  ],
+  "PKR": [
+    "Pakistan : roupie pakistanaise"
+  ],
+  "PAB": [
+    "Panama : balboa"
+  ],
+  "PGK": [
+    "Papouasie-Nouvelle-Guinée : kina"
+  ],
+  "PYG": [
+    "Paraguay : guarani"
+  ],
+  "PEN": [
+    "Pérou : nuevo sol"
+  ],
+  "PHP": [
+    "Philippines : peso"
+  ],
+  "PLN": [
+    "Pologne : zloty"
+  ],
+  "QAR": [
+    "Qatar : riyal qatarien"
+  ],
+  "DOP": [
+    "République Dominicaine : peso dominicain"
+  ],
+  "CZK": [
+    "République tchèque : couronne tchèque"
+  ],
+  "RUB": [
+    "Russie : rouble"
+  ],
+  "RWF": [
+    "Rwanda : franc rwandais"
+  ],
+  "WST": [
+    "Samoa : tala"
+  ],
+  "STD": [
+    "Sao Tomé et Principe : dobra"
+  ],
+  "RSD": [
+    "Serbie : dinar serbe"
+  ],
+  "SCR": [
+    "Seychelles : roupie seychelloise"
+  ],
+  "SLL": [
+    "Sierra Leone : leone"
+  ],
+  "SGD": [
+    "Singapour : dollar de singapour"
+  ],
+  "SOS": [
+    "Somalie : shilling somalien"
+  ],
+  "SDG": [
+    "Soudan : livre soudanaise"
+  ],
+  "LKR": [
+    "Sri Lanka : roupie"
+  ],
+  "SEK": [
+    "Suède : couronne suédoise"
+  ],
+  "SRD": [
+    "Surinam : dollar surinamien"
+  ],
+  "SZL": [
+    "Swaziland : lilangeni"
+  ],
+  "SYP": [
+    "Syrie : livre syrienne"
+  ],
+  "TJS": [
+    "Tadjikistan : somoni"
+  ],
+  "TWD": [
+    "Taïwan : nouveau dollar taïwanais"
+  ],
+  "TZS": [
+    "Tanzanie : shilling"
+  ],
+  "THB": [
+    "Thaïlande : baht"
+  ],
+  "TOP": [
+    "Tonga : pa'anga"
+  ],
+  "TTD": [
+    "Trinité et Tobago : dollar de Trinité et Tobago"
+  ],
+  "TND": [
+    "Tunisie : dinar"
+  ],
+  "TMT": [
+    "Turkmenistan : manat"
+  ],
+  "TRY": [
+    "Turquie : livre turque"
+  ],
+  "UAH": [
+    "Ukraine : Hryvnia"
+  ],
+  "UYU": [
+    "Uruguay : peso uruguayen"
+  ],
+  "VUV": [
+    "Vanuatu : vatu"
+  ],
+  "VES": [
+    "Venezuela : bolivar"
+  ],
+  "VND": [
+    "Vietnam : dong"
+  ],
+  "YER": [
+    "Yemen : riyal"
+  ],
+  "ZMW": [
+    "Zambie : kwacha"
+  ],
+  "ZWL": [
+    "Zimbabwe : dollar zimbabwéen"
+  ]
+}
